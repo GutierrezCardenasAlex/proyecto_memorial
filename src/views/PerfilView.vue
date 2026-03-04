@@ -98,7 +98,7 @@ const router = useRouter()
 const perfil = ref(null)
 const loading = ref(true)
 const theme = ref(localStorage.getItem("theme") || "light")
-const BASE_URL = "http://localhost:3000"
+const BASE_URL = import.meta.env.VITE_API_URL
 
 const navItems = [
   { id: 'perfil', label: 'Biografía', icon: '👤' },
