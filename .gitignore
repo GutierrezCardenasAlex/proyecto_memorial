@@ -24,5 +24,3 @@ dist/
 *.sw?
 
 electron-main-js
-
-/public/uploads/personas/*
