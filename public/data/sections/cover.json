@@ -1,0 +1,35 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleProfile",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "contact_list_ids": ["address", "email", "phone"],
+        "contact_circles_ids": ["instagram", "facebook", "linkedin", "github"]
+      },
+      "items": [
+        {
+          "id": 1,
+          "locales": {
+
+            "es": {
+              "description": "Fue un compositor y músico boliviano, conocido como el Padre del Rock Boliviano por su papel pionero en fusionar sonidos rock con folclore y letras de protesta social durante los años 70 y 80. Una de sus canciones más emblemáticas es A los 500 años, un himno que reflexiona sobre la identidad indígena y la conquista. Su obra es fundamental en la historia de la música popular de Bolivia."
+            } 
+          }
+        },
+
+        {
+          "id": 2,
+          "locales": {
+            "es": {
+              "description": "Acceso a sus redes sociales"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+
+        "es": {
+          "title": null,
+          "category_all": "Todos",
+          "category_productivity": "Familiares",
+          "category_social": "Sociales",
+          "category_utilities": "Trabajo"
+        }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": []
+    }
+  ]
+}

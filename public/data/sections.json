@@ -1,0 +1,102 @@
+{
+  "sections": [
+    {
+      "id": "about",
+      "categoryId": "home",
+      "jsonPath": "/sections/cover.json",
+      "faIcon": "fa-solid fa-address-card",
+      "type": "centered",
+      "locales": {
+        
+        "es": {
+          "title": "Pagina *conmemorativa*",
+          "title_short": "Conmemoracion",
+          "description": null,
+          "nav_label": "Acerca de"
+        }
+      }
+    },
+
+    {
+      "id": "education",
+      "categoryId": "background",
+      "jsonPath": "/sections/education.json",
+      "faIcon": "fa-solid fa-graduation-cap",
+      "type": "column",
+      "locales": {
+        
+        "es": {
+          "title": "Antecedentes *Educativos*",
+          "title_short": null,
+          "description": "Un vistazo a la trayectoria académica y logros.",
+          "nav_label": "Educación"
+        }
+      }
+    },
+
+    {
+      "id": "skills",
+      "categoryId": "showcase",
+      "jsonPath": "/sections/skills.json",
+      "faIcon": "fa-solid fa-tools",
+      "type": "column",
+      "locales": {
+        "es": {
+          "title": "Intereses *Personales*",
+          "title_short": null,
+          "description": "Intereses personales desarrollados a lo largo de su vida",
+          "nav_label": "Intereses"
+        }
+      }
+    },
+
+    {
+      "id": "experience",
+      "categoryId": "background",
+      "jsonPath": "/sections/experience.json",
+      "faIcon": "fa-solid fa-briefcase",
+      "type": "column",
+      "locales": {
+        "es": {
+          "title": "*Trayectoria* que desarrollo durante su vida",
+          "title_short": null,
+          "description": "Un vistazo a mi experiencia laboral y trayectoria profesional.",
+          "nav_label": "Trayectoria"
+        }
+      }
+    },
+
+    {
+      "id": "portfolio",
+      "categoryId": "showcase",
+      "jsonPath": "/sections/portfolio.json",
+      "faIcon": "fa-solid fa-folder-open",
+      "type": "column",
+      "locales": {
+        "es": {
+          "title": "Galeria de *Recuerdos*",
+          "title_short": null,
+          "description": "Explora la galeria de imagenes mas relevantes",
+          "nav_label": "Galeria"
+        }
+      }
+    },
+
+    {
+      "id": "achievements",
+      "categoryId": "showcase",
+      "jsonPath": "/sections/achievements.json",
+      "faIcon": "fa-solid fa-award",
+      "type": "row",
+      "locales": {
+        
+        "es": {
+          "title": "Logros *Profesionales*",
+          "title_short": null,
+          "description": "Mi trayectoria como diseñador de UX ha estado marcada por una dedicación inquebrantable al aprendizaje y mejora de habilidades, junto con una participación entusiasta en eventos de diseño. Como resultado, he recopilado una lista de premios y certificaciones notables:",
+          "nav_label": "Logros"
+        }
+      }
+    }
+  ]
+}

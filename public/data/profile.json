@@ -1,0 +1,57 @@
+{
+  "name": "Alex",
+  "profilePictureUrl": "images/pictures/avatar.jpg",
+
+  "locales": {
+   
+
+    "es": {
+      "credits": "Hecho por <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+      "role": "ingeniero"
+    }
+  },
+
+  "contactOptions": [
+    {
+      "id": "address",
+      "faIcon": "fa-regular fa-map",
+      "href": null,
+      "locales": {
+        
+        "es": {
+          "valueShort": "Oruro – Bolivia."
+        }
+      }
+    },
+
+    {
+      "id": "email",
+      "value": "1949 - 2021",
+      "valueShort": "1949 - 2021",
+      "faIcon": "fas fa-heartbeat"
+    },
+
+    {
+      "id": "facebook",
+      "value": "Roy Sheppard",
+      "valueShort": "Roy S.",
+      "faIcon": "fa-brands fa-facebook",
+      "href": "https://facebook.com"
+    },
+
+    {
+      "id": "instagram",
+      "value": "@roy.sheppard.official",
+      "valueShort": "@roy.sheppard.official",
+      "faIcon": "fa-brands fa-instagram",
+      "href": "https://instagram.com"
+    },
+
+    {
+      "id": "phone",
+      "value": "7 de junio",
+      "valueShort": "7 de junio",
+      "faIcon": "fas fa-birthday-cake"
+    }
+  ]
+}

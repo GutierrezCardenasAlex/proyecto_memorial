@@ -1,0 +1,64 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleSkills",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "max_items_per_line": 2,
+        "transparent_item_icon_background": false,
+        "small_icons": false,
+        "chart": null
+      },
+      "items": [
+        {
+          "id": 1,
+          "dateStart": null,
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-guitar",
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "es": {
+              "title": "Compositor",
+              "description": "Composicion musical y de guitarra",
+              "level": null
+            }
+          }
+        },
+         {
+          "id": 2,
+          "dateStart": null,
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-guitar",
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "es": {
+              "title": "Compositor",
+              "description": "Composicion musical y de guitarra",
+              "level": null
+            }
+          }
+        },
+         {
+          "id": 3,
+          "dateStart": null,
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-guitar",
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "es": {
+              "title": "Compositor",
+              "description": "Composicion musical y de guitarra",
+              "level": null
+            }
+          }
+        }      
+      ]
+    }
+  ]
+}

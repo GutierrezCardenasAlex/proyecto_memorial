@@ -1,0 +1,62 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleThread",
+      "locales": {
+        "es": { "title": "Premios" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 3,
+          "dateStart": { "year": 2020, "month": 11 },
+          "fallbackFaIcon": "fa-solid fa-house-laptop",
+          "fallbackFaIconColor": null,
+          "locales": {
+            "es": {
+              "title": "Reconocimiento Popular Masivo (Su Mayor Logro)",
+              "description": "Otorgado por el municipio paceña como figura importante en el comun popular",
+              "institution": "Gobierno autono municipal de La Paz"
+            }
+          },
+          "links": []
+        },
+
+        {
+          "id": 4,
+          "dateStart": { "year": 2001, "month": 3 },
+          "fallbackFaIcon": "fa-solid fa-newspaper",
+          "fallbackFaIconColor": null,
+          "locales": {
+
+            "es": {
+              "title": " Condecoración Cóndor de los Andes (La Máxima Distinción Nacional)",
+              "description": "Reconocimiento a la trayectoria Profesional",
+              "institution": "Musica Bolivia"
+            }
+          },
+          "links": [
+            { "href": "https://forbes.com", "stringKey": "view_more_info" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "es": { "title": "Certificaciones" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "desc"
+      },
+      "items": []
+    }
+  ]
+}

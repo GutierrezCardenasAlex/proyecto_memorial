@@ -1,0 +1,34 @@
+{
+    "locales": {
+        
+        "es": {
+            "about": "Acerca de",
+            "address": "Dirección",
+            "adjusting_viewport": "Ajustando la pantalla...",
+            "changing_language": "Cambiando de idioma...",
+            "experience_year_count_less_than_one": "<b>≈ 1</b> año de experiencia",
+            "experience_year_count_plural": "<b>{x}</b> años de experiencia",
+            "experience_year_count_singular": "<b>{x}</b> año de experiencia",
+            "email": "E-mail",
+            "error_fill_all_fields": "Por favor, completa todos los campos.",
+            "error_invalid_email": "Por favor, introduce una dirección de correo válida.",
+            "error_sending_message": "Hubo un error al enviar el mensaje.",
+            "message": "Mensaje",
+            "name": "Nombre",
+            "now": "Actualmente",
+            "phone": "Teléfono",
+            "send_message": "Enviar",
+            "send_another_message": "Enviar otro mensaje",
+            "sending_message": "Enviando mensaje...",
+            "subject": "Asunto",
+            "tags": "Tags",
+            "where_to_find": "Dónde Encontrarlo",
+            "where_to_find_description": "{project} está disponible en las siguientes plataformas y servicios:",
+            "view_certification": "Ver certificación",
+            "view_more_info": "Ver más información",
+            "view_on_app_store": "App Store",
+            "view_on_google_play": "Google Play",
+            "view_on_windows_store": "Windows Store"
+        }
+    }
+}
