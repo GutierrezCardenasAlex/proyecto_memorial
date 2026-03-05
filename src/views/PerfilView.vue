@@ -118,7 +118,7 @@ function toggleTheme() {
   localStorage.setItem("theme", theme.value)
 }
 
-const imageUrl = (path) => path ? `${BASE_URL}/${path}` : ''
+const imageUrl = (path) => path ? `/api/uploads/${path}` : ''
 const formatDate = (d) => d ? new Date(d).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) : '-'
 const getYear = (d) => d ? new Date(d).getFullYear() : '—'
 const go = (sec) => router.push(`/${slug.value}/${sec}`)
