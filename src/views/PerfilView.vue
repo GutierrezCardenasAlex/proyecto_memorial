@@ -118,18 +118,7 @@ function toggleTheme() {
   localStorage.setItem("theme", theme.value)
 }
 
-const imageUrl = (path) => {
-  if (!path) return '';
-  
-  // Si el path ya es una URL completa (http...), devuélvela tal cual
-  if (path.startsWith('http')) return path;
-
-  // Si usas el proxy de Vite para las imágenes también:
-  return `/api/uploads/${path}`; 
-  
-  // NOTA: Asegúrate de que en tu server/index.js tengas una ruta estática:
-  // app.use('/api/uploads', express.static('uploads'))
-};
+const imageUrl = (path) => path ? `${BASE_URL}/${path}` : ''
 const formatDate = (d) => d ? new Date(d).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) : '-'
 const getYear = (d) => d ? new Date(d).getFullYear() : '—'
 const go = (sec) => router.push(`/${slug.value}/${sec}`)
