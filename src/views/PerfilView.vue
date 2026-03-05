@@ -98,7 +98,6 @@ const router = useRouter()
 const perfil = ref(null)
 const loading = ref(true)
 const theme = ref(localStorage.getItem("theme") || "light")
-const BASE_URL = import.meta.env.VITE_API_URL
 
 const navItems = [
   { id: 'perfil', label: 'Biografía', icon: '👤' },
@@ -119,7 +118,18 @@ function toggleTheme() {
   localStorage.setItem("theme", theme.value)
 }
 
-const imageUrl = (path) => path ? `${BASE_URL}/${path}` : ''
+const imageUrl = (path) => {
+  if (!path) return '';
+  
+  // Si el path ya es una URL completa (http...), devuélvela tal cual
+  if (path.startsWith('http')) return path;
+
+  // Si usas el proxy de Vite para las imágenes también:
+  return `/api/uploads/${path}`; 
+  
+  // NOTA: Asegúrate de que en tu server/index.js tengas una ruta estática:
+  // app.use('/api/uploads', express.static('uploads'))
+};
 const formatDate = (d) => d ? new Date(d).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) : '-'
 const getYear = (d) => d ? new Date(d).getFullYear() : '—'
 const go = (sec) => router.push(`/${slug.value}/${sec}`)
