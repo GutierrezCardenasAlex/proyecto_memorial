@@ -127,7 +127,7 @@ const go = (sec) => router.push(`/${slug.value}/${sec}`)
 async function loadData() {
   loading.value = true
   try {
-    const res = await fetch(`${BASE_URL}/api/personas/slug/${slug.value}`)
+    const res = await fetch(`/api/personas/slug/${slug.value}`)
     perfil.value = await res.json()
   } catch (err) { console.error(err) } finally { loading.value = false }
 }
