@@ -22,6 +22,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "0.0.0.0",
     port: 5173,
+    // IMPORTANTE: Sin esto, Cloudflare dará error de "Blocked Host"
+    allowedHosts: [
+      "recordatorio.cybernovatech.space"
+    ],
     proxy: {
       "/api": {
         target: "http://localhost:3000",

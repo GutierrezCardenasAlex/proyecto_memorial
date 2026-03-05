@@ -52,7 +52,7 @@
 import { reactive } from 'vue';
 
 const emit = defineEmits(['close', 'created']);
-const API_URL = 'http://localhost:3000/api/personas';
+const API_URL = '/api/personas';
 
 const form = reactive({
   nombre_completo: '',

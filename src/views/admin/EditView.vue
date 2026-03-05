@@ -52,7 +52,7 @@ onMounted(async () => {
     // Lo ideal es tener router.get('/:id') en backend.
     
     // Si no tienes getById, carga todos y filtra (temporalmente)
-    const res = await fetch('http://localhost:3000/api/personas');
+    const res = await fetch('/api/personas');
     const personas = await res.json();
     const personaEncontrada = personas.find(p => p.id == id);
     

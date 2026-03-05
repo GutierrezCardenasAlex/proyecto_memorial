@@ -137,7 +137,6 @@ import { useRouter } from "vue-router"
 import AdminNavbar from "./components/AdminNavbar.vue"
 
 const router = useRouter()
-
 const form = reactive({
   nombre_completo: "",
   titulo: "",
@@ -191,7 +190,7 @@ const guardar = async () => {
   }
 
   try {
-    const res = await fetch("http://localhost:3000/api/personas", {
+    const res = await fetch("/api/personas", {
       method: "POST",
       body: formData
     })
