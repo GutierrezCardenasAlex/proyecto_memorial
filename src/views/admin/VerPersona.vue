@@ -144,7 +144,7 @@ const perfilPublicoURL = computed(() => {
 })
 
 onMounted(async () => {
-  const res = await fetch(`${BASE_URL}/api/personas/${route.params.id}`)
+  const res = await fetch(`/api/personas/${route.params.id}`)
   if (!res.ok) throw new Error("No encontrado")
   persona.value = await res.json()
   await nextTick()

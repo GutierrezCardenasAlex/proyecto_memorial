@@ -153,7 +153,7 @@ const imagenFile = ref(null)
 
 // EDUCACIÓN
 const guardarEducacion = async () => {
-  const res = await fetch(`${BASE_URL}/api/personas/educacion`, {
+  const res = await fetch(`/api/personas/educacion`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ ...formEducacion.value, persona_id })
@@ -165,7 +165,7 @@ const guardarEducacion = async () => {
 
 // INTERESES
 const guardarInteres = async () => {
-  const res = await fetch(`${BASE_URL}/api/personas/intereses`, {
+  const res = await fetch(`/api/personas/intereses`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ ...formInteres.value, persona_id })
@@ -177,7 +177,7 @@ const guardarInteres = async () => {
 
 // TRAYECTORIA
 const guardarTrayectoria = async () => {
-  const res = await fetch(`${BASE_URL}/api/personas/trayectoria`, {
+  const res = await fetch(`/api/personas/trayectoria`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ ...formTrayectoria.value, persona_id })
@@ -189,7 +189,7 @@ const guardarTrayectoria = async () => {
 
 // LOGROS
 const guardarLogro = async () => {
-  const res = await fetch(`${BASE_URL}/api/personas/logros`, {
+  const res = await fetch(`/api/personas/logros`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ ...formLogro.value, persona_id })

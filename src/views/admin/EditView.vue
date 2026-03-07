@@ -71,7 +71,7 @@ const handleFileUpload = (e) => {
 
 const actualizar = async () => {
   try {
-    const res = await fetch(`${BASE_URL}/api/personas/${route.params.id}`, {
+    const res = await fetch(`/api/personas/${route.params.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(form)
