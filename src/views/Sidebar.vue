@@ -58,8 +58,11 @@ const props = defineProps(['perfil', 'theme', 'currentSection', 'navItems'])
 defineEmits(['toggle-theme', 'navigate'])
 
 const collapsed = ref(false)
-const BASE_URL = "http://localhost:3000"
-const imageUrl = (path) => path ? (path.startsWith('http') ? path : `${BASE_URL}/${path}`) : ''
+
+const BASE_URL = import.meta.env.VITE_API_URL
+
+const imageUrl = (path) => 
+  path ? (path.startsWith('http') ? path : `${BASE_URL}/${path}`) : ''
 </script>
 
 <style scoped>
